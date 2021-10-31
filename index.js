@@ -13,9 +13,9 @@ import { PageProvider } from './context/PageContext';
 import App from './components/App/App';
 
 toast.configure({
-  autoClose: 3000,
-  closeButton: false,
-  hideProgressBar: true,
+  autoClose: 4000,
+  closeButton: true,
+  hideProgressBar: false,
   position: toast.POSITION.BOTTOM_RIGHT,
 });
 
